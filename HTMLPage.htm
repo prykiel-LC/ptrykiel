@@ -1,0 +1,184 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <!-- Our CSS stylesheet file -->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <!-- Including the Lobster font from Google's Font Directory -->
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lobster" />
+    <!-- Enabling HTML5 support for Internet Explorer -->
+    <script type="text/javascript" src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+</head>
+<header>        
+
+        <nav>
+            <ul class="fancyNav">
+                <li id="about"><a href="http://www.cityofchicago.org/city/en/about.html">about us</a></li>
+                <li id="services"><a href="http://www.cityofchicago.org/city/en/svcs/find.html">services</a></li>
+                <li id="city"><a href="#">Chicago</a></li>
+                <li id="government"><a href="http://www.cityofchicago.org/city/en/chicagogovt.html">government</a></li>
+                <li id="programs"><a href="http://www.cityofchicago.org/city/en/progs.html">programs</a></li>
+            </ul>
+        </nav>
+        </header>
+<body>
+    <div class="newbody">
+        <!-- <img src="Images/CityofChicago.jpg" height="600px" width="1280px" class="image" alt=""/> -->
+        <a href="#" class="Home">Link1 to new Top</a>
+        <div class="otherstuff">
+            <div>
+                <a href="#" class="ImgLink1">Link1 to new Image</a></div>
+            <div>
+                <a href="#" class="ImgLink2">Link2 to new Image</a></div>
+            <div>
+                <a href="#" class="ImgLink3">Link3 to new Image</a></div>
+        </div>
+    </div>
+    <style type="text/css">
+        section
+        {
+            display: flex;
+        }
+        
+        section article
+        {
+            flex: 1 100%;
+            overflow: auto;
+            height: 425px;
+            width: 425px;
+        }
+    </style>
+    <section> 
+        
+        <article>
+          
+        <figure>
+         
+        <img src="Images/chicago1.jpg" height="325px" width=425px" class="image"/>
+          
+        <figcaption>
+        <p>Chicago 1</p>
+        </figcaption>
+         
+        </figure>    
+        <p>Some Text</p>
+        </article>
+         
+        
+        <article>
+           
+        <figure>
+        <img src="Images/chicago2.jpg" height="325px" width="425px" class="image" />
+    
+        <figcaption>
+        <p>Chicago 1</p>
+        </figcaption>
+         
+        </figure>    
+        <p>Some Text</p>
+        </article>
+        
+       
+       <article>
+          
+        <figure>
+        <img src="Images/chicago3.jpg" height="325px" width="425px" class="image"/>
+          
+        <figcaption>
+        <p>Chicago 1</p>
+        </figcaption>
+         
+        </figure>    
+        <p>Some Text</p>
+        </article>
+
+        
+         </section>
+    <section>
+        <article>
+           
+        <figure>
+        <img src="Images/chicago2.jpg" height="325px" width="425px" class="image" />
+    
+        <figcaption>
+        <p>Chicago 1</p>
+        </figcaption>
+         
+        </figure>    
+        <p>Some Text</p>
+        </article>
+        
+       
+       <article>
+          
+        <figure>
+        <img src="Images/chicago3.jpg" height="325px" width="425px" class="image"/>
+          
+        <figcaption>
+        <p>Chicago 1</p>
+        </figcaption>
+         
+        </figure>    
+        <p>Some Text</p>
+        </article>
+
+        <article>
+           
+        <figure>
+        <img src="Images/chicago2.jpg" height="325px" width="425px" class="image" />
+    
+        <figcaption>
+        <p>Chicago 1</p>
+        </figcaption>
+         
+        </figure>    
+        <p>Some Text</p>
+        </article>
+        </section>
+    <footer>Copyright 2014 City of Chicago</footer>
+</body>
+</html>
+<script type="text/javascript">
+    $(".Home").click(function () {
+        $(".newbody").css({
+    'background':'url(Images/CityofChicago.jpg)',
+    'background-repeat': 'no-repeat',
+    'background-size':'1270px 600px'
+    
+     
+    });
+    });
+    $(".ImgLink1").click(function () {
+        $(".newbody").css({
+    'background':'url(Images/chicago1.jpg)',
+    'background-repeat': 'no-repeat',
+    'background-size':'1270px 600px'
+    
+     
+    
+    });
+     });
+    $(".ImgLink2").click(function () {
+        $(".newbody").css({
+    'background':'url(Images/chicago2.jpg)',
+    'background-repeat': 'no-repeat',
+    'background-size':'1270px 600px'
+    
+     
+     
+    });
+     });
+    $(".ImgLink3").click(function () {
+        $(".newbody").css({
+    'background':'url(Images/chicago3.jpg)',
+    'background-repeat': 'no-repeat',
+    'background-size':'1270px 600px'
+    
+     
+    
+    });
+     });
+</script>
